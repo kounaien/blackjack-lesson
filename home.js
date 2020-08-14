@@ -66,6 +66,9 @@ return: "hello qazi"
 
 // sumNumbers(10, '10');
 
+// while loops 
+
+var num = 0;
 
 
 
