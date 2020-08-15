@@ -6,6 +6,22 @@
 </head>
 <body>
     <p id="sometax">sometax</p>
-    <script src="home.js"></script>
+    <script>
+        let students = `[
+            {
+                "name": "Qazi",
+                "age": 25,
+                "height": 170
+            },
+            {
+                "name": "Rafeh",
+                "age": 28,
+                "height": 180
+            }
+        ]`
+
+        console.log(JSON.parse(students)[1].age);
+    </script>
+    <!-- <script src="home2.js"></script> -->
 </body>
 </html>
