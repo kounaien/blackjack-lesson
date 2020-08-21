@@ -87,3 +87,6 @@ img{
     height: 100px;
 }
 
+#blackjack-hit-button, #blackjack-stand-button {
+    margin-right: 3px;
+}
